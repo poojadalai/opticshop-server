@@ -22,23 +22,40 @@ router.get("/", async (req, res, next) => {
   }
 });
 
-// //get request to get all bid with its specific bid
-// router.get("/:id", async (req, res, next) => {
-//   try {
-//     const productId = req.params.id;
-//     const response = await Product.findByPk(productId, {
-//       include: { all: true },
-//       // order: [[Bid, "createdAt", "ASC"]],
-//     });
-//     if (response) {
-//       res.json(response);
-//     } else {
-//       res.status(404).send("Artwork not found");
-//     }
-//   } catch (e) {
-//     console.log(e.message);
-//     next(e);
-//   }
-// });
+router.get("/:id", async (req, res, next) => {
+  try {
+    const productId = req.params.id;
+    const response = await Product.findByPk(productId, {
+      include: { all: true },
+      // order: [[Bid, "createdAt", "ASC"]],
+    });
+    if (response) {
+      res.json(response);
+    } else {
+      res.status(404).send("product not found");
+    }
+  } catch (e) {
+    console.log(e.message);
+    next(e);
+  }
+});
+
+router.get("/:id", async (req, res, next) => {
+  try {
+    const brandId = req.params.id;
+    const response = await Brand.findByPk(brandId, {
+      include: { all: true },
+      // order: [[Bid, "createdAt", "ASC"]],
+    });
+    if (response) {
+      res.json(response);
+    } else {
+      res.status(404).send("Brand not found");
+    }
+  } catch (e) {
+    console.log(e.message);
+    next(e);
+  }
+});
 
 module.exports = router;
