@@ -42,28 +42,28 @@ module.exports = {
         },
         {
           image_url:
-            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/24C_650x.jpg?v=1613829702",
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/23C_502c99fc-ca76-4da8-a9c2-595872ce3bb5_650x.jpg?v=1613829701",
           productId: 2,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
         {
           image_url:
-            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/Chanel13A_650x.jpg?v=1637768336",
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/Chanel15A_650x.jpg?v=1637769520",
           productId: 3,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
         {
           image_url:
-            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/13B_fbf6f774-e5dd-408e-8324-f2fdbfb4bb0a_650x.jpg?v=1637768336",
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/15B_eaf8870c-7910-41df-ba33-1d537ebee06a_650x.jpg?v=1637769520",
           productId: 3,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
         {
           image_url:
-            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/13C_a552cd9e-3b2f-4b17-b609-e7073c4d7d31_650x.jpg?v=1637768336",
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/15C_290f8b66-87d9-4bcb-92e4-69a4adb6a41e_650x.jpg?v=1637769520",
           productId: 3,
           createdAt: new Date(),
           updatedAt: new Date(),
@@ -325,22 +325,295 @@ module.exports = {
         },
         {
           image_url:
-            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/19B_7c1237e7-6775-45f5-bf79-db374df91432_650x.jpg?v=1634315888",
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/TomFordJasmin9H301736314A_650x.jpg?v=1646987985",
           productId: 16,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
         {
           image_url:
-            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/19A_68fb485f-6ff4-4f03-bd1e-28d39d21c250_650x.jpg?v=1634315888",
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/TomFordJasmin9H301736314B_650x.jpg?v=1646987985",
           productId: 16,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
         {
           image_url:
-            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/19C_1825e260-af4c-4590-9b14-0f9e26362afc_650x.jpg?v=1634315888",
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/TomFordJasmin9H301736314C_650x.jpg?v=1646987985",
           productId: 16,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/BuckleyB_650x.jpg?v=1649503715",
+          productId: 17,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/TFBuckley02906A_650x.jpg?v=1649503716",
+          productId: 17,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/TFBuckleyC_650x.jpg?v=1649503715",
+          productId: 17,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/343404_FT0853_12V_01_650x.jpg?v=1642175138",
+          productId: 18,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/343411_FT0853_12V_08_650x.jpg?v=1642175138",
+          productId: 18,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/343405_FT0853_12V_02_650x.jpg?v=1642175138",
+          productId: 18,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/260340_FT0822_52H_08_650x.jpg?v=1614337810",
+          productId: 19,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/260333_FT0822_52H_01_650x.jpg?v=1614337810",
+          productId: 19,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/260334_FT0822_52H_02_650x.jpg?v=1614337810",
+          productId: 19,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/82460_FT0665_01E_01_650x.jpg?v=1614693223",
+          productId: 20,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/82467_FT0665_01E_08_650x.jpg?v=1614693223",
+          productId: 20,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/82461_FT0665_01E_02_650x.jpg?v=1614693223",
+          productId: 20,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/292607_FT0825_28F_01_650x.jpg?v=1614703164",
+          productId: 21,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/292607_FT0825_28F_01_650x.jpg?v=1614703164",
+          productId: 21,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/292608_FT0825_28F_02_650x.jpg?v=1614703190",
+          productId: 21,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/Cara940_B_650x.jpg?v=1647081762",
+          productId: 22,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/TFCara940_A_650x.jpg?v=1647081762",
+          productId: 22,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/TFCara_C_650x.jpg?v=1647081762",
+          productId: 22,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/7B_9b05eb58-3b00-45da-8f76-8b22eb7f86c2_650x.jpg?v=1613825349",
+          productId: 23,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/7A_07f4cd5e-8f03-442e-8645-5b02b4e54d0e_650x.jpg?v=1613825349",
+          productId: 23,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/7C_e3fafdae-d222-40f3-85c6-b53206242098_650x.jpg?v=1613825349",
+          productId: 23,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/Ch4273TA_650x.jpg?v=1645107226",
+          productId: 24,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/CHbruinB_650x.jpg?v=1645107226",
+          productId: 24,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/Ch4371Cbruin_650x.jpg?v=1645107226",
+          productId: 24,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/Chanel42713959A_650x.jpg?v=1647602315",
+          productId: 25,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/CH4271B_650x.jpg?v=1647602315",
+          productId: 25,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/Chanel4271C_650x.jpg?v=1647602314",
+          productId: 25,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/Dita27B_650x.jpg?v=1615040822",
+          productId: 26,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/Dita27A_650x.jpg?v=1615040822",
+          productId: 26,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/Dita27C_650x.jpg?v=1615040822",
+          productId: 26,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/B_90c5f7b9-a2b5-495d-b9ac-a714720b8b7c_650x.jpg?v=1649950498",
+          productId: 27,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/DitaMetaEvoDTS-152-A_03A_650x.jpg?v=1649950501",
+          productId: 27,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/C_de2a65d7-c256-42ab-bfe4-989aedf062d8_650x.jpg?v=1649950501",
+          productId: 27,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/Gucci10860-004A_650x.jpg?v=1644933366",
+          productId: 28,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/Gucci1054-004B_4ef26b15-69ec-4e7e-a8da-3f23c0f7381d_650x.jpg?v=1644933366",
+          productId: 28,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/Gucci1054-004-C_650x.jpg?v=1644933366",
+          productId: 28,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/GG1103A_650x.jpg?v=1645799751",
+          productId: 29,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/GG1103B_650x.jpg?v=1645799750",
+          productId: 29,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          image_url:
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/GG1103C_650x.jpg?v=1645799750",
+          productId: 29,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
