@@ -10,6 +10,7 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       user.hasMany(models.order);
+      user.hasMany(models.address);
     }
   }
   user.init(
@@ -27,27 +28,27 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.STRING,
         allowNull: false,
       },
-      company: {
-        type: DataTypes.STRING,
-      },
-      address: {
-        type: DataTypes.STRING,
-      },
-      city: {
-        type: DataTypes.STRING,
-      },
-      zipcode: {
-        type: DataTypes.STRING,
-      },
-      country: {
-        type: DataTypes.STRING,
-      },
-      state: {
-        type: DataTypes.STRING,
-      },
-      phone: {
-        type: DataTypes.STRING,
-      },
+      // company: {
+      //   type: DataTypes.STRING,
+      // },
+      // address: {
+      //   type: DataTypes.STRING,
+      // },
+      // city: {
+      //   type: DataTypes.STRING,
+      // },
+      // zipcode: {
+      //   type: DataTypes.STRING,
+      // },
+      // country: {
+      //   type: DataTypes.STRING,
+      // },
+      // state: {
+      //   type: DataTypes.STRING,
+      // },
+      // phone: {
+      //   type: DataTypes.STRING,
+      // },
     },
     {
       sequelize,

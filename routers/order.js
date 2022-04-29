@@ -5,44 +5,41 @@ const User = require("../models").user;
 const Order = require("../models").order;
 const Product = require("../models").product;
 const router = new Router();
+const Address = require("../models").address;
 
 //create new order
 router.post("/", authMiddleware, async (req, res, next) => {
   try {
     const {
       cart,
-      name,
-      company,
-      address,
-      city,
-      zipcode,
-      country,
-      state,
-      phone,
+      id,
+      // company, address, city, zipcode, country, state, phone
     } = req.body;
     const userId = req.user.id;
-    const userModel = await User.findByPk(userId);
+    // const user = await User.findByPk(userId);
 
-    if (!userModel.userId === req.user.id) {
-      return res
-        .status(403)
-        .send({ message: "You are not authorized to update this space" });
-    }
+    // if (!userModel.userId === req.user.id) {
+    //   return res
+    //     .status(403)
+    //     .send({ message: "You are not authorized to update this space" });
+    // }
+
+    // const newAddress = await Address.create({
+    //   company: company,
+    //   address: address,
+    //   city: city,
+    //   zipcode: zipcode,
+    //   country: country,
+    //   state: state,
+    //   phone: phone,
+    //   userId,
+    // });
+    console.log(id, cart);
+
     const newOrder = await Order.create({
       userId,
       status: "completed",
-    });
-
-    const addData = await userModel.update({
-      name: name,
-      company: company,
-      address: address,
-      city: city,
-      zipcode: zipcode,
-      country: country,
-      state: state,
-      phone: phone,
-     
+      addressId: id,
     });
 
     const arrayOfPromises = cart.map(async (item) => {
@@ -55,9 +52,10 @@ router.post("/", authMiddleware, async (req, res, next) => {
     });
     await Promise.all(arrayOfPromises);
 
-    return res
-      .status(200)
-      .send({ message: "Thank you. Your order has been placed", newOrder });
+    return res.status(200).send({
+      message: "Thank you. Your order has been placed",
+      newOrder,
+    });
   } catch (e) {
     console.log(e.message);
     next(e);
