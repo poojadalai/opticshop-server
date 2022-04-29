@@ -7,6 +7,7 @@ const Order = require("../models/").order;
 const { SALT_ROUNDS } = require("../config/constants");
 const Product = require("../models/").product;
 const Image = require("../models/").image;
+const Address = require("../models/").address;
 const router = new Router();
 
 router.post("/login", async (req, res, next) => {
@@ -21,7 +22,10 @@ router.post("/login", async (req, res, next) => {
 
     const user = await User.findOne({
       where: { email },
-      include: { model: Order, include: { model: Product, include: Image } },
+      include: [
+        { model: Order, include: { model: Product, include: Image } },
+        { model: Address },
+      ],
     });
 
     if (!user || !bcrypt.compareSync(password, user.password)) {
@@ -34,7 +38,6 @@ router.post("/login", async (req, res, next) => {
     const token = toJWT({ userId: user.id });
     return res.status(200).send({ token, ...user.dataValues });
   } catch (error) {
-    console.log(error);
     return res.status(400).send({ message: "Something went wrong, sorry" });
   }
 });
@@ -74,7 +77,11 @@ router.post("/signup", async (req, res) => {
 router.get("/me", authMiddleware, async (req, res) => {
   const user = await User.findOne({
     where: { id: req.user.id },
-    include: { model: Order, include: { model: Product, include: Image } },
+    include: [
+      { model: Order, include: { model: Product, include: Image } },
+      { model: Address },
+    ],
+    // include: { model: Order, include: { model: Product, include: Image } },
     // include: { model: Order, include: [Product] },
   });
   // don't send back the password hash

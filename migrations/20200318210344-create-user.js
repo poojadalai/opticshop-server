@@ -21,28 +21,28 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      company: {
-        type: Sequelize.STRING,
-      },
-      address: {
-        type: Sequelize.STRING,
-      },
-      city: {
-        type: Sequelize.STRING,
-      },
-      zipcode: {
-        type: Sequelize.STRING,
-      },
-      country: {
-        type: Sequelize.STRING,
-      },
+      // company: {
+      //   type: Sequelize.STRING,
+      // },
+      // address: {
+      //   type: Sequelize.STRING,
+      // },
+      // city: {
+      //   type: Sequelize.STRING,
+      // },
+      // zipcode: {
+      //   type: Sequelize.STRING,
+      // },
+      // country: {
+      //   type: Sequelize.STRING,
+      // },
 
-      state: {
-        type: Sequelize.STRING,
-      },
-      phone: {
-        type: Sequelize.STRING,
-      },
+      // state: {
+      //   type: Sequelize.STRING,
+      // },
+      // phone: {
+      //   type: Sequelize.STRING,
+      // },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,
