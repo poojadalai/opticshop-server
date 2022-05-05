@@ -416,21 +416,21 @@ module.exports = {
         },
         {
           image_url:
-            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/82467_FT0665_01E_08_650x.jpg?v=1614693223",
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/TFGarrett01BA_650x.jpg?v=1648294394",
           productId: 20,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
         {
           image_url:
-            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/82461_FT0665_01E_02_650x.jpg?v=1614693223",
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/TFGarretB_650x.jpg?v=1648294394",
           productId: 20,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
         {
           image_url:
-            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/292607_FT0825_28F_01_650x.jpg?v=1614703164",
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/GarretTFC_1024x1024@2x.jpg?v=1648294394",
           productId: 21,
           createdAt: new Date(),
           updatedAt: new Date(),

@@ -71,6 +71,52 @@ router.post("/signup", async (req, res) => {
   }
 });
 
+router.post("/profile", authMiddleware, async (req, res, next) => {
+  try {
+    const { company, address, city, zipcode, country, state, phone } = req.body;
+    const userId = req.user.id;
+
+    if (!userId) {
+      return res
+        .status(403)
+        .send({ message: "You are not authorized to update this space" });
+    }
+
+    const newAddress = await Address.create({
+      company: company,
+      address: address,
+      city: city,
+      zipcode: zipcode,
+      country: country,
+      state: state,
+      phone: phone,
+      userId,
+    });
+
+    return res.status(200).send({
+      message: "Address added",
+      newAddress,
+    });
+  } catch (e) {
+    console.error(e.message);
+    next(e);
+  }
+});
+
+router.delete("/profile/:addressId", authMiddleware, async (req, res, next) => {
+  try {
+    const { addressId } = req.params;
+    const address = await Address.findByPk(addressId);
+    if (!address) {
+      return res.status(404).send("address not found");
+    }
+    await address.destroy();
+    res.send({ message: "Address deleted!", addressId });
+  } catch (e) {
+    next(e);
+  }
+});
+
 // The /me endpoint can be used to:
 // - get the users email & name using only their token
 // - checking if a token is (still) valid
