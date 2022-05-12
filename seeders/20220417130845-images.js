@@ -409,7 +409,7 @@ module.exports = {
         },
         {
           image_url:
-            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/82460_FT0665_01E_01_650x.jpg?v=1614693223",
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/TFGarretB_650x.jpg?v=1648294394",
           productId: 20,
           createdAt: new Date(),
           updatedAt: new Date(),
@@ -423,7 +423,7 @@ module.exports = {
         },
         {
           image_url:
-            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/TFGarretB_650x.jpg?v=1648294394",
+            "https://cdn.shopify.com/s/files/1/0266/9379/6048/products/GarretTFC_650x.jpg?v=1648294394",
           productId: 20,
           createdAt: new Date(),
           updatedAt: new Date(),
