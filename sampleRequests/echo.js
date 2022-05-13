@@ -6,7 +6,7 @@ async function echoExample() {
     hello: "World"
   });
 
-  console.log("RESPONSE FROM SERVER", response.data);
+  console.error("RESPONSE FROM SERVER", response.data);
 }
 
 echoExample();

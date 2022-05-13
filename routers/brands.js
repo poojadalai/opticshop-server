@@ -20,7 +20,7 @@ router.get("/:id", async (req, res, next) => {
       res.status(404).send("Brand not found");
     }
   } catch (e) {
-    console.log(e.message);
+    console.error(e.message);
     next(e);
   }
 });

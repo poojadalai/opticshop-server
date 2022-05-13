@@ -34,7 +34,7 @@ router.post("/", authMiddleware, async (req, res, next) => {
     //   phone: phone,
     //   userId,
     // });
-    console.log(id, cart);
+    // console.log(id, cart);
 
     const newOrder = await Order.create({
       userId,
@@ -57,7 +57,7 @@ router.post("/", authMiddleware, async (req, res, next) => {
       newOrder,
     });
   } catch (e) {
-    console.log(e.message);
+    console.error(e.message);
     next(e);
   }
 });

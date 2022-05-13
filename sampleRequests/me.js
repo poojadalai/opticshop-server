@@ -24,8 +24,8 @@ async function meExample() {
 
     console.log(responseMe);
   } catch (error) {
-    console.log("OH NO AN ERROR", error.message);
-    console.log("WHAT HAPPENED?", error.response.data);
+    console.error("OH NO AN ERROR", error.message);
+    console.error("WHAT HAPPENED?", error.response.data);
   }
 }
 

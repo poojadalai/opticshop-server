@@ -24,7 +24,7 @@ async function auth(req, res, next) {
     // next handler
     return next();
   } catch (error) {
-    console.log("ERROR IN AUTH MIDDLEWARE", error);
+    console.error("ERROR IN AUTH MIDDLEWARE", error);
 
     switch (error.name) {
       case "TokenExpiredError":
